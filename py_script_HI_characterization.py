@@ -9,6 +9,8 @@ import py21cmfast as p21c
 
 cosmo_params = p21c.CosmoParams()
 
+print('Hello World')
+
 
 def Gaussian(x, sigma=1, mu=0):
     return (1 / sigma / np.sqrt(2 * np.pi)) * (np.exp(-0.5 * (((x - mu) / sigma) ** 2)))
